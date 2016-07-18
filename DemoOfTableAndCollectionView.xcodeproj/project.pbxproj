@@ -14,6 +14,8 @@
 		37030DAC1CEEEC6100283BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37030DAA1CEEEC6100283BEE /* LaunchScreen.storyboard */; };
 		37030DB71CEEEC6200283BEE /* DemoOfTableAndCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37030DB61CEEEC6200283BEE /* DemoOfTableAndCollectionViewTests.swift */; };
 		37030DC21CEEEC6200283BEE /* DemoOfTableAndCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37030DC11CEEEC6200283BEE /* DemoOfTableAndCollectionViewUITests.swift */; };
+		37030DD01CEEF45100283BEE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37030DCF1CEEF45100283BEE /* MyTableViewCell.swift */; };
+		37519C111CF2EBC200B9A29F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37519C101CF2EBC200B9A29F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		37030DBD1CEEEC6200283BEE /* DemoOfTableAndCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoOfTableAndCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37030DC11CEEEC6200283BEE /* DemoOfTableAndCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfTableAndCollectionViewUITests.swift; sourceTree = "<group>"; };
 		37030DC31CEEEC6200283BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37030DCF1CEEF45100283BEE /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		37519C101CF2EBC200B9A29F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				37030DA11CEEEC6100283BEE /* AppDelegate.swift */,
 				37030DA31CEEEC6100283BEE /* ViewController.swift */,
+				37519C101CF2EBC200B9A29F /* DetailViewController.swift */,
+				37030DCF1CEEF45100283BEE /* MyTableViewCell.swift */,
 				37030DA51CEEEC6100283BEE /* Main.storyboard */,
 				37030DA81CEEEC6100283BEE /* Assets.xcassets */,
 				37030DAA1CEEEC6100283BEE /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			files = (
 				37030DA41CEEEC6100283BEE /* ViewController.swift in Sources */,
 				37030DA21CEEEC6100283BEE /* AppDelegate.swift in Sources */,
+				37030DD01CEEF45100283BEE /* MyTableViewCell.swift in Sources */,
+				37519C111CF2EBC200B9A29F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoOfTableAndCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.DemoOfTableAndCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DemoOfTableAndCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.DemoOfTableAndCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +498,7 @@
 				37030DC81CEEEC6200283BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37030DC91CEEEC6200283BEE /* Build configuration list for PBXNativeTarget "DemoOfTableAndCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +507,7 @@
 				37030DCB1CEEEC6200283BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37030DCC1CEEEC6200283BEE /* Build configuration list for PBXNativeTarget "DemoOfTableAndCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +516,7 @@
 				37030DCE1CEEEC6200283BEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
